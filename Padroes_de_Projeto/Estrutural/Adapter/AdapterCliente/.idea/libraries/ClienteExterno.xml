@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ClienteExterno">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/ClienteExterno.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
