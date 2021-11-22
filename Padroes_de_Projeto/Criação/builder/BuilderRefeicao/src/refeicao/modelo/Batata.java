@@ -1,4 +1,4 @@
-package refeicao;
+package refeicao.modelo;
 
 public class Batata {
 

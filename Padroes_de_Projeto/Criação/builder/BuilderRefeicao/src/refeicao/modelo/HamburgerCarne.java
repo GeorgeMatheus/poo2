@@ -1,5 +1,7 @@
 
-package refeicao;
+package refeicao.modelo;
+
+import refeicao.modelo.Hamburger;
 
 /**
  *

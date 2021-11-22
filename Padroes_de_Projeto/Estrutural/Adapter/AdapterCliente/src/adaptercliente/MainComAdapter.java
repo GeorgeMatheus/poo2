@@ -1,8 +1,10 @@
 
 package adaptercliente;
 
+import adaptercliente.model.ClienteAdapter;
 import adaptercliente.visao.VisaoCliente;
 import lib.ClienteExterno;
+
 
 public class MainComAdapter {
 
@@ -20,6 +22,7 @@ public class MainComAdapter {
         ce.setNome("Jose");
         ce.setSobreNome("Silva");
         VisaoCliente visao = new VisaoCliente();
+        ClienteAdapter cliente = new ClienteAdapter(ce);
         visao.setInformacoesCliente(cliente);//espera um Cliente
         visao.setVisible(true); 
         

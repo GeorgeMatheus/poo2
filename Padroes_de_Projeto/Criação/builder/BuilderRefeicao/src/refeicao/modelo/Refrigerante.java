@@ -1,11 +1,13 @@
 
-package refeicao;
+package refeicao.modelo;
+
+import refeicao.modelo.Bebida;
 
 /**
  *
  * @author felipe
  */
-public class Refrigerante extends Bebida{
+public class Refrigerante extends Bebida {
     
    
     public Refrigerante(String sabor){  

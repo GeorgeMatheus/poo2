@@ -1,5 +1,9 @@
 
-package refeicao;
+package refeicao.modelo;
+
+import refeicao.modelo.Batata;
+import refeicao.modelo.Bebida;
+import refeicao.modelo.Hamburger;
 
 /**
  *

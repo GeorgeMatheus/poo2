@@ -1,6 +1,6 @@
 
 
-package refeicao;
+package refeicao.modelo;
 
 /**
  *

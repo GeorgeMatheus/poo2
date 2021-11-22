@@ -1,5 +1,9 @@
 
-package refeicao;
+package refeicao.builder;
+
+import refeicao.builder.NonVegetarianoBuilder;
+import refeicao.builder.VegetarianoBuilder;
+import refeicao.modelo.Refeicao;
 
 /**
  *
@@ -7,7 +11,7 @@ package refeicao;
  */
 public class DiretorRefeicao {        
     
-    public Refeicao preparaNaoVegetariana(String sabor, String tipoBebida){       
+    public Refeicao preparaNaoVegetariana(String sabor, String tipoBebida){
         Refeicao novaRefeicao = new Refeicao();
         NonVegetarianoBuilder refeicaoBuilder = new NonVegetarianoBuilder(novaRefeicao);
 

@@ -1,6 +1,9 @@
 
 
-package refeicao;
+package refeicao.builder;
+
+import refeicao.modelo.HamburgerVegetariano;
+import refeicao.modelo.Refeicao;
 
 /**
  *
@@ -13,7 +16,7 @@ public class VegetarianoBuilder extends RefeicaoBuilder{
     }        
     public void preparaHamburgerVegetariano(){
         System.out.println("cria hamburger vegetariano");
-        this.refeicao.setHamburger(new HamburgerVegetariano());                
+        this.refeicao.setHamburger(new HamburgerVegetariano());
     }        
 }
 
